@@ -1,3 +1,3 @@
-module canvas2task
+module github.com/memsdm05/canvas2task
 
 go 1.18
