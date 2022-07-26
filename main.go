@@ -74,7 +74,7 @@ func Assignment2Task(a Assignment) Task {
 
 func main() {
 	if len(os.Args) < 2 {
-		PrintfExit("please provide an assignment link")
+		PrintfExit("please provide an assignment link\n")
 	}
 
 	link := os.Args[1]

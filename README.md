@@ -9,6 +9,7 @@ oh and make sure you fill out the config file
 ## Install????
 1. [Download Go](https://go.dev/dl/)
 2. ```git clone https://github.com/memsdm05/canvas2task```
+3. ```cd canvas2task```
 3. ```go install canvas2task```
 
 ## Why code bad

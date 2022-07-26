@@ -95,7 +95,7 @@ func initDataDir() string {
 	}
 	home += "/.canvas2task"
 	if !exists(home) {
-		os.Mkdir(home, 0o666)
+		os.Mkdir(home, 0o777)
 		fmt.Printf("created new data directory @ %s\n", home)
 	}
 
